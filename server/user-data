@@ -1,0 +1,12 @@
+#cloud-config
+autoinstall:
+  version: 1
+  keyboard:
+    layout: de
+  identity:
+    hostname: box
+    password: "$y$j9T$pYWT60j9tjohZlHevs/EU1$K39U2fLbzCVOMojW2p.IiUGDAOaIy1XLfvCOMJIfpAB"
+    username: datenpiloten
+  ssh:
+    allow-pw: true
+    install-server: true
